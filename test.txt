@@ -1,0 +1,24 @@
+Q1. Is react a framework or a library and what is the difference between the two?
+Ans-> React is a library.
+
+framework --> A framework collection of many libraries. A framework include libraries to make our work easier. A framework is normally more complex. There is skeleton is made and we have to develope in this format. The benefit is that developers do not need to worry about design they had to just impelment the function.
+
+library --> A library is collection of class definitions. The classes and methods are define in it and with the help of function and method we create. 
+
+
+Q2. What all information is stored in package.json and how is it different from package-lock.json?
+Ans-> Package.json contains information about the project that we are working on and it also contains dependencies on package that we had installed. If we import a package then it is possible that it is using other package then they will also import.
+      It is different from package-lock.json because package-lock.json is created by the node package manager automatically we just use it. and we never touch this file.
+
+Q3. Does React uses Html? Explain 
+Ans-> Yes React uses Html. It is used to renders the file. The ReactDOM.render() function renders the React element on the Document Object Model (DOM) tree
+
+Q4. Briefly describe what is the use of the following in react js?
+
+App.js => It is a component. It is the first component that is used in any react application.
+
+Index.js => Its contains the whole javascript for our website. It contains the initialization code of React.
+
+app.css =>  It is the CSS part of App component. Whatever HTML we write in App.js can access this CSS inside it
+
+index.html => It is used to renders the file.
